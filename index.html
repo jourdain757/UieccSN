@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+        
+        <title>UIECC SEARCH</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="text-acceuil">
+                <h2>Welcome To <span class="animation"></span></h2>
+            </div>
+            <form action="https://google.com/search" method="get" class="bar-recherche">
+                <input type="text" placeholder="Recherche" name="q">
+                <button type="submit">
+                    <img src="search.png">
+                </button>
+            </form>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+        <script>
+            var typed = new Typed('.animation', {
+                // Waits 1000ms after typing "First"
+                strings: ['UIECC ', 'SEARCH'],
+                    typeSpeed:100,
+                    backSpeed:100,
+                    loop:true
+            });
+        </script>
+    </body>
+</html>
